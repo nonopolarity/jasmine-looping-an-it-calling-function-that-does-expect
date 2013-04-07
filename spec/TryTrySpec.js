@@ -1,5 +1,8 @@
 describe("TryTry", function() {
-  it("should add", function() {
-    expect(1+1).toEqual(2);
-  })
+
+    it("should add", function() {
+        expect(foo(3,4)).toEqual(7);
+    })
+
 });
+
